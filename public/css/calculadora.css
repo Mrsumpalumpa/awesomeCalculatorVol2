@@ -1,0 +1,202 @@
+@keyframes psycho {
+  0% {
+    transform: rotate(0deg) scale(1) translate(0, 0); }
+  33% {
+    transform: rotate(360deg) scale(1) translate(5px, 5px); }
+  66% {
+    transform: rotate(720deg) scale(1) translate(-5px, -5px); }
+  100% {
+    transform: rotate(1080deg) scale(1) translate(0, 0); } }
+@keyframes rotateThis {
+  from {
+    transform: rotate(0deg) scale(1); }
+  to {
+    transform: rotate(360deg) scale(1); } }
+.button-container {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  padding-bottom: .5em;
+  grid-template-areas: "parleft parright ecnt exp" "sin cos tg pi" "sqrt cubicrt log ln" " one two three plus" " four five six minus" " seven eight nine mult" " percent  zero coma div " "clr clr equal equal"; }
+  .button-container .button {
+    text-align: center;
+    align-self: center;
+    background: transparent;
+    padding: .4rem .4rem;
+    width: 95%;
+    margin: 3px 1rem;
+    transition: all .5s ease;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 3px #41403E; }
+    .button-container .button.one {
+      grid-area: one; }
+    .button-container .button.two {
+      grid-area: two; }
+    .button-container .button.three {
+      grid-area: three; }
+    .button-container .button.four {
+      grid-area: four; }
+    .button-container .button.five {
+      grid-area: five; }
+    .button-container .button.six {
+      grid-area: six; }
+    .button-container .button.seven {
+      grid-area: seven; }
+    .button-container .button.eight {
+      grid-area: eight; }
+    .button-container .button.nine {
+      grid-area: nine; }
+    .button-container .button.zero {
+      grid-area: zero; }
+    .button-container .button.coma {
+      grid-area: coma; }
+    .button-container .button.clr {
+      grid-area: clr;
+      width: 95%; }
+    .button-container .button.equal {
+      grid-area: equal;
+      width: 95%; }
+    .button-container .button.minus {
+      grid-area: minus; }
+    .button-container .button.div {
+      grid-area: div; }
+    .button-container .button.sqrt {
+      grid-area: sqrt; }
+    .button-container .button.cubicrt {
+      grid-area: cubicrt; }
+    .button-container .button.log {
+      grid-area: log; }
+    .button-container .button.ln {
+      grid-area: ln; }
+    .button-container .button.sin {
+      grid-area: sin; }
+    .button-container .button.cos {
+      grid-area: cos; }
+    .button-container .button.tg {
+      grid-area: tg; }
+    .button-container .button.pi {
+      grid-area: pi; }
+    .button-container .button.exp {
+      grid-area: exp; }
+    .button-container .button.parleft {
+      grid-area: parleft; }
+    .button-container .button.parright {
+      grid-area: parright; }
+    .button-container .button.ecnt {
+      grid-area: ecnt; }
+    .button-container .button:hover {
+      box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+      background-color: rgba(243, 142, 60, 0.281);
+      background-size: 90% 90%; }
+    .button-container .button:active {
+      box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+      background-color: rgba(243, 142, 60, 0.281);
+      background-size: 90% 90%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.maincont {
+  background: url(../../img/Slanted-Gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Caviar'; }
+  .maincont .maximize-hidden {
+    box-shadow: 0 1px 0 3px rgba(255, 192, 0, 0.25), 0 -1px 0 3px rgba(255, 64, 0, 0.25), 1px 0 0 3px rgba(255, 192, 0, 0.25), -1px 0 0 3px rgba(255, 64, 0, 0.25), 1px -1px 0 3px rgba(255, 128, 0, 0.5), -1px 1px 0 3px rgba(255, 128, 0, 0.5), 1px 1px 0 3px rgba(255, 255, 0, 0.75), -1px -1px 0 3px rgba(255, 0, 0, 0.75);
+    color: black;
+    background-color: rgba(252, 235, 5, 0.774);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    visibility: hidden;
+    transition: opacity 2s linear; }
+    .maincont .maximize-hidden:active {
+      background: rgba(255, 187, 0, 0.699);
+      animation: psycho 2s linear infinite; }
+  .maincont .calc-shape {
+    width: 33%;
+    min-width: 300px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: rgba(245, 245, 245, 0.651);
+    margin-bottom: 50px;
+    transition: opacity 2s ease; }
+    .maincont .calc-shape .top-bar {
+      width: 100%;
+      background-color: whitesmoke;
+      height: 50px;
+      border-radius: 12px 12px 0 0;
+      padding: .5em;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      .maincont .calc-shape .top-bar button {
+        border-radius: 50%;
+        height: 23px;
+        width: 23px;
+        border: none;
+        margin-left: 5px;
+        vertical-align: super;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); }
+        .maincont .calc-shape .top-bar button a {
+          text-decoration: none;
+          text-align: center;
+          vertical-align: super; }
+        .maincont .calc-shape .top-bar button:active {
+          transform: scale(1.1);
+          box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2); }
+      .maincont .calc-shape .top-bar button:nth-child(1) {
+        background-color: red; }
+      .maincont .calc-shape .top-bar button:nth-child(2) {
+        background-color: green; }
+      .maincont .calc-shape .top-bar button:last-child {
+        background-color: yellow; }
+    .maincont .calc-shape .calc-screen {
+      border-radius: 2px;
+      width: 90%;
+      margin: auto;
+      height: 85px;
+      background-color: whitesmoke;
+      margin-top: 5px;
+      padding: .2em;
+      font-size: 1.7em;
+      color: black;
+      text-shadow: 1px 1px 2px gray; }
+      @media screen and (max-width: 360px) {
+        .maincont .calc-shape .calc-screen {
+          font-size: 13px; } }
+      .maincont .calc-shape .calc-screen .calc-operation {
+        height: 50%;
+        border-bottom: dotted grey 2px;
+        text-align: right; }
+      .maincont .calc-shape .calc-screen .calc-result {
+        height: 50%;
+        text-align: right; }
+
+@font-face {
+  font-family: "Caviar";
+  src: local("Caviar"), url(../../fonts/Caviar.ttf);
+  font-weight: normal; }
+
+/*# sourceMappingURL=calculadora.css.map */

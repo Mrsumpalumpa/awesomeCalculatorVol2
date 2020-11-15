@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (https://www.inkscape.org/) -->
+<!-- ClipArt by Arvin61r58 (https://openclipart.org/user-detail/Arvin61r58) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 215.9 279.40001"
+   version="1.1"
+   id="svg8">
+  <title
+     id="title4556">Border 72  (US size)</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient4548-6">
+      <stop
+         stop-color="#95aeca"
+         offset="0"
+         id="stop4518-0" />
+      <stop
+         stop-color="#f2deb7"
+         offset="0.071429"
+         id="stop4520-6" />
+      <stop
+         stop-color="#b8a891"
+         offset="0.142857"
+         id="stop4522-3" />
+      <stop
+         stop-color="#688895"
+         offset="0.214286"
+         id="stop4524-9" />
+      <stop
+         stop-color="#81b5ff"
+         offset="0.285714"
+         id="stop4526-5" />
+      <stop
+         stop-color="#fff8cb"
+         offset="0.357143"
+         id="stop4528-1" />
+      <stop
+         stop-color="#f5c79f"
+         offset="0.428571"
+         id="stop4530-9" />
+      <stop
+         stop-color="#6b8a8d"
+         offset="0.5"
+         id="stop4532-2" />
+      <stop
+         stop-color="#69eff9"
+         offset="0.571429"
+         id="stop4534-2" />
+      <stop
+         stop-color="#e6e0cc"
+         offset="0.642857"
+         id="stop4536-8" />
+      <stop
+         stop-color="#f6e2bc"
+         offset="0.714286"
+         id="stop4538-2" />
+      <stop
+         stop-color="#6b8888"
+         offset="0.785714"
+         id="stop4540-5" />
+      <stop
+         stop-color="#a7d6ac"
+         offset="0.857143"
+         id="stop4542-8" />
+      <stop
+         stop-color="#a3b2c6"
+         offset="0.928571"
+         id="stop4544-1" />
+      <stop
+         stop-color="#fef6ce"
+         offset="1"
+         id="stop4546-1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-2.7681819e-6,-17.599994)"
+       spreadMethod="reflect"
+       y2="107.76493"
+       x2="82.651199"
+       y1="34.297195"
+       x1="14.698608"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4574"
+       xlink:href="#linearGradient4548-6" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Border 72  (US size)</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Arvin61r58</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Openclipart.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>https://openclipart.org/</dc:identifier>
+        <dc:source>https://openclipart.org/user-detail/Arvin61r58</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>frame</rdf:li>
+            <rdf:li>border</rdf:li>
+            <rdf:li>page</rdf:li>
+            <rdf:li>DTP</rdf:li>
+            <rdf:li>gradient</rdf:li>
+            <rdf:li>wave</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Page frame/border with metallic pastel gradient - sized for US (8.5x11in) paper</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     id="rect4485"
+     d="m 36.355386,6.6145815 c -16.389992,0 -29.7408028,13.2203365 -29.7408028,29.4526305 V 243.33279 c 0,16.2323 13.3508108,29.45263 29.7408028,29.45263 H 179.54462 c 16.38999,0 29.7408,-13.22033 29.7408,-29.45263 V 36.067212 c 0,-16.232294 -13.35081,-29.4526305 -29.7408,-29.4526305 z m 0,9.8182135 H 179.54462 c 11.06955,0 19.8272,8.671369 19.8272,19.634417 V 243.33279 c 0,10.96305 -8.75765,19.63442 -19.8272,19.63442 H 36.355386 c -11.069553,0 -19.827201,-8.67137 -19.827201,-19.63442 V 36.067212 c 0,-10.963048 8.757648,-19.634417 19.827201,-19.634417 z"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient4574);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+</svg>

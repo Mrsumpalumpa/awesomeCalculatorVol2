@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$backgroundcalc: whitesmoke;
+.maincont{
+    background: url(../../img/Slanted-Gradient.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caviar';         
+    .maximize-hidden{
+        @include border-gradient(red, yellow,3px); 
+        color:black;
+        background-color: rgba(252, 235, 5, 0.774);
+        width: 50px;
+        height: 50px;
+        position:absolute;
+        top:15px;
+        left: 15px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        visibility: hidden;
+        transition: opacity 2s linear;  
+        &:active{
+            background: rgba(255, 187, 0, 0.699);           
+            animation: psycho 2s linear infinite;
+
+        }
+    }
+    .calc-shape{
+        width: 33%;
+        min-width: 300px;
+        border-radius: 15px;
+        margin-top: 50px;
+        background-color: rgba(245, 245, 245, 0.651);
+        margin-bottom: 50px;
+        transition: opacity 2s ease;
+       
+    .top-bar{
+        width: 100%;
+        background-color:$backgroundcalc ;
+        height: 50px;
+        border-radius: 12px 12px 0 0 ;
+        padding:.5em;
+        color:black;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        button{
+            border-radius: 50%;
+            height: 23px;
+            width: 23px;
+            border:none;
+            margin-left: 5px;
+            vertical-align: super;
+            box-shadow: 3px 3px 5px hsla(0,0%,0%,.2);
+            a{
+                text-decoration: none;
+                text-align: center;
+                vertical-align: super;
+            }
+            &:active{
+                transform: scale(1.1);
+                box-shadow: 5px 5px 7px hsla(0,0%,0%,.2);
+            }
+        }
+        button:nth-child(1){
+            background-color: red;
+            
+        }
+        button:nth-child(2){
+            background-color: green;
+        }
+        button:last-child{
+            background-color: yellow;
+        }
+      
+    }
+    .calc-screen{
+        border-radius: 2px;
+        width: 90%;
+        margin: auto;
+        height: 85px;
+        background-color: $backgroundcalc;
+        margin-top: 5px;
+        padding: .2em;
+        font-size: 1.7em;
+        color: black;
+        text-shadow: 1px 1px 2px gray;
+        @media screen and (max-width:360px) {
+            font-size:13px;
+        }
+        .calc-operation{
+            height: 50%;
+            border-bottom: dotted grey 2px;
+            text-align: right;
+                                
+        }
+        .calc-result{
+            height: 50%;
+            text-align: right;
+                     
+            }
+    }
+      
+    }
+}

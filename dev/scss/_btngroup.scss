@@ -1,0 +1,76 @@
+.button-container{    
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    padding-bottom: .5em;
+    grid-template-areas:
+    "parleft parright ecnt exp"
+    "sin cos tg pi"
+    "sqrt cubicrt log ln"
+    " one two three plus"
+    " four five six minus"
+    " seven eight nine mult"
+    " percent  zero coma div "
+    "clr clr equal equal"   
+    ;
+    .button{
+        text-align: center;
+        align-self:center;
+        background:transparent;
+        padding:.4rem .4rem;
+        width: 95%;
+        margin:3px 1rem;
+        transition:all .5s ease;
+        color:black;
+        font-size:1.1rem;
+        letter-spacing:1px;
+        outline:none;
+        box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border:solid 3px #41403E;
+        &.one{grid-area: one;}
+        &.two{grid-area: two;}
+        &.three{grid-area:three;}
+        &.four{grid-area:four;}
+        &.five{grid-area:five;}
+        &.six{grid-area:six;}
+        &.seven{grid-area:seven;}
+        &.eight{grid-area:eight;}
+        &.nine{grid-area:nine;}
+        &.zero{grid-area: zero;}
+        &.coma{grid-area:coma;}
+        &.clr{
+            grid-area:clr;
+            width: 95%;
+        }
+        &.equal{
+            grid-area:equal;
+            width: 95%;            
+        }
+        &.minus{grid-area:minus;}
+        &.div{grid-area:div;}
+        &.sqrt{grid-area:sqrt;}
+        &.cubicrt{grid-area:cubicrt;}
+        &.log{grid-area:log;}
+        &.ln{grid-area:ln;}
+        &.sin{grid-area:sin;}
+        &.cos{grid-area:cos;}
+        &.tg{grid-area:tg;}
+        &.pi{grid-area:pi;}
+        &.exp{grid-area:exp;}
+        &.parleft{grid-area:parleft;}
+        &.parright{grid-area:parright;}
+        &.ecnt{grid-area:ecnt;}        
+        &:hover{
+            box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+            background-color: rgba(243, 142, 60, 0.281);
+            background-size: 90% 90%;
+        }
+        &:active{
+            box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+            background-color: rgba(243, 142, 60, 0.281);
+            background-size: 90% 90%; 
+        }
+        }
+    }
